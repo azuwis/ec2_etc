@@ -8,3 +8,6 @@
 #
 ###############################################################################
 #ZONE	INTERFACE	BROADCAST	OPTIONS
+net	eth0		detect		dhcp,tcpflags,logmartians,nosmurfs
+pptp	ppp+
+ovpn	tun0

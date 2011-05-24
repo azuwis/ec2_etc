@@ -9,3 +9,8 @@
 ###############################################################################
 #SOURCE	DEST	POLICY		LOG	LIMIT:		CONNLIMIT:
 #				LEVEL	BURST		MASK
+fw	all	ACCEPT
+all	fw	ACCEPT
+pptp	all	ACCEPT
+ovpn	all	ACCEPT
+all	all	REJECT
