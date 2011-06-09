@@ -9,4 +9,4 @@
 ###############################################################################
 #INTERFACE:DEST		SOURCE		ADDRESS		PROTO	PORT(S)	IPSEC	MARK	USER/
 #											GROUP
-eth0			192.168.189.100/32
+eth0			192.168.189.0/24
