@@ -10,4 +10,4 @@
 #TYPE			ZONE	GATEWAY		GATEWAY
 #						ZONE
 pptpserver		net	0.0.0.0/0
-openvpn			net	0.0.0.0/0
+openvpnserver		net	0.0.0.0/0
