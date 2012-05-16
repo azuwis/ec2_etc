@@ -12,5 +12,6 @@
 fw	firewall
 net	ipv4
 #pptp	ipv4		-		mss=1356		-
+#pptp	ipv4		mss=1356
 pptp	ipv4
 ovpn	ipv4

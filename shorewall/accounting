@@ -11,3 +11,7 @@
 #							PORT(S)		PORT(S)	GROUP
 ACCOUNT(vpn,192.168.189.0/24)	-	192.168.189.0/24	eth0
 ACCOUNT(vpn,192.168.189.0/24)	-	eth0			192.168.189.0/24
+Eth0	-	eth0
+Eth0	-	-	eth0
+COUNT	Eth0	eth0
+COUNT	Eth0	-	eth0
